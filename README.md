@@ -1,29 +1,60 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="fbirds5230 — Small fixes. Better tools." width="100%">
+  <img src="./assets/header.svg" alt="fbirds5230 — Small fixes. Fewer surprises. A purple pixel bird against a midnight sky." width="100%">
 </p>
 
-# Hey, I'm fbirds5230 👋
+<h1 align="center">Hey, I'm fbirds5230.</h1>
 
-I contribute to open-source tools, with a focus on bug fixes, edge cases, and regression tests.
+<p align="center"><b>I chase the bugs hiding in the details.</b></p>
 
-Recently, that has meant keeping process output intact, making sure empty CSV records survive an export, and getting configuration files to behave as expected.
+<p align="center">
+  <img src="./assets/stack.svg" alt="TypeScript, Go, and Python" width="540">
+</p>
 
-**Working with:** `TypeScript` · `Go` · `Python`
+<p align="center">
+  <a href="https://github.com/fbirds5230?tab=repositories"><b>Browse the code</b></a>
+  &nbsp; / &nbsp;
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Afbirds5230"><b>Follow the patches</b></a>
+</p>
 
-## A few things I've worked on
+<br>
 
-| Project | Contribution |
-| --- | --- |
-| **[go-pretty](https://github.com/jedib0t/go-pretty/pull/469)** · Go | Preserving empty records in single-column CSV output. **Merged upstream.** |
-| **[tinyexec](https://github.com/tinylibs/tinyexec/pull/195)** · TypeScript | Keeping captured process output available across repeated awaits and concurrent handlers. |
-| **[ConfigUpdater](https://github.com/pyscaffold/configupdater/pull/198)** · Python | Respecting custom option-name handling when validating and saving configuration files. |
+I contribute focused fixes to open-source tools. Lately: process output that disappears, CSV rows that vanish, and configuration keys that refuse to behave. Every patch below comes with regression tests.
 
-These links go to my pull requests in the original projects. Each change includes regression tests.
+## Small patches, real problems
 
-## How I approach a fix
+<table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/jedib0t/go-pretty/pull/469">go-pretty</a></h3>
+      <p><code>Go</code> &nbsp; <b>Merged upstream</b></p>
+      <p><b>Empty still counts.</b> Keep empty single-column CSV records intact when exporting a table.</p>
+      <p><a href="https://github.com/jedib0t/go-pretty/pull/469">Read the patch · #469</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tinylibs/tinyexec/pull/195">tinyexec</a></h3>
+      <p><code>TypeScript</code> &nbsp; PR #195</p>
+      <p><b>One process. Same output.</b></p>
+      <p>Keep captured output available across repeated awaits and concurrent handlers.</p>
+      <p><a href="https://github.com/tinylibs/tinyexec/pull/195">Read the patch</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/pyscaffold/configupdater/pull/198">ConfigUpdater</a></h3>
+      <p><code>Python</code> &nbsp; PR #198</p>
+      <p><b>Keep the key rules consistent.</b></p>
+      <p>Make validation and saving respect the document's custom option-name handling.</p>
+      <p><a href="https://github.com/pyscaffold/configupdater/pull/198">Read the patch</a></p>
+    </td>
+  </tr>
+</table>
 
-Reproduce the problem, understand what's causing it, and keep the patch focused. Then add a test that catches it next time.
+<p><sub>My contributions to the original projects. Each card links directly to the pull request.</sub></p>
 
----
+<br>
 
-[Browse my repositories](https://github.com/fbirds5230?tab=repositories) · [See my pull requests](https://github.com/pulls?q=is%3Apr+author%3Afbirds5230)
+<p align="center"><b>Reproduce it. Understand it. Fix it. Leave a test.</b></p>
+
+<p align="center">
+  <img src="./assets/footer.svg" alt="" width="100%">
+</p>

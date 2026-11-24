@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="64" viewBox="0 0 600 64" fill="none" role="img" aria-labelledby="title">
+  <title id="title">TypeScript, Go, and Python</title>
+  <rect x="1" y="1" width="224" height="62" rx="15" fill="#17152A" stroke="#554477" stroke-width="2"/>
+  <rect x="17" y="16" width="32" height="32" rx="7" fill="#BCA5FF"/>
+  <text x="33" y="38" text-anchor="middle" fill="#17152A" font-family="Arial, sans-serif" font-size="17" font-weight="700">TS</text>
+  <text x="64" y="41" fill="#E3D8FF" font-family="Arial, sans-serif" font-size="26" font-weight="600">TypeScript</text>
+  <rect x="239" y="1" width="135" height="62" rx="15" fill="#101F29" stroke="#356370" stroke-width="2"/>
+  <path d="M256 25H274M252 32H270M256 39H274" stroke="#70E2ED" stroke-width="3" stroke-linecap="round"/>
+  <text x="292" y="41" fill="#9AE9ED" font-family="Arial, sans-serif" font-size="26" font-weight="600">Go</text>
+  <rect x="388" y="1" width="211" height="62" rx="15" fill="#252018" stroke="#6F5A35" stroke-width="2"/>
+  <text x="410" y="40" fill="#F0C988" font-family="'DejaVu Sans Mono', monospace" font-size="24" font-weight="700">Py</text>
+  <text x="457" y="41" fill="#F4D9AC" font-family="Arial, sans-serif" font-size="26" font-weight="600">Python</text>
+</svg>
