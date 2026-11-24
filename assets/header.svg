@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">fbirds5230 — Small fixes. Better tools.</title>
+  <desc id="description">A dark blue banner with mint lettering accents and three birds in flight.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101B29"/>
+      <stop offset="1" stop-color="#172C3C"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="892" y1="112" x2="1170" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9BE7CC"/>
+      <stop offset="1" stop-color="#56B5B6"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1278" height="318" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" fill="url(#background)"/>
+    <path d="M855 351C901 270 1028 266 1098 212C1170 156 1153 80 1310 45" stroke="#477183" stroke-opacity=".3" stroke-width="1.5"/>
+    <path d="M937 350C983 283 1090 280 1154 227C1220 172 1238 126 1316 111" stroke="#477183" stroke-opacity=".2" stroke-width="1.5"/>
+    <path d="M56 69H94" stroke="#9BE7CC" stroke-width="4" stroke-linecap="round"/>
+    <text x="112" y="76" fill="#9BE7CC" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" letter-spacing="3">OPEN SOURCE</text>
+    <text x="56" y="175" fill="#F1F6F8" font-family="Arial, Helvetica, sans-serif" font-size="79" font-weight="700" letter-spacing="-2">fbirds5230</text>
+    <text x="59" y="235" fill="#BDCDD7" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="400">Small fixes. Better tools.</text>
+    <path d="M877 117C921 111 958 131 987 161C1000 133 1032 112 1061 109C1032 127 1009 153 994 185C973 155 928 128 877 117Z" fill="url(#wing)"/>
+    <path d="M1042 194C1068 189 1090 198 1109 214C1116 195 1132 180 1154 174C1136 189 1123 207 1115 229C1102 210 1075 199 1042 194Z" fill="#8CC8CA" fill-opacity=".68"/>
+    <path d="M1104 78C1124 76 1140 83 1153 94C1159 82 1172 72 1189 69C1176 79 1165 91 1158 106C1147 93 1128 83 1104 78Z" fill="#8CC8CA" fill-opacity=".42"/>
+  </g>
+  <rect x="1" y="1" width="1278" height="318" rx="24" stroke="#2A4353" stroke-width="2"/>
+</svg>
