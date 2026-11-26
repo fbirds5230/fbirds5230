@@ -36,7 +36,7 @@ I contribute focused fixes to open-source tools. Lately: process output that dis
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tinylibs/tinyexec/pull/195">tinyexec</a></h3>
-      <p><code>TypeScript</code> &nbsp; PR #195</p>
+      <p><code>TypeScript</code> &nbsp; <b>Merged upstream</b></p>
       <p><b>One process. Same output.</b></p>
       <p>Keep captured output available across repeated awaits and concurrent handlers.</p>
       <p><a href="https://github.com/tinylibs/tinyexec/pull/195">Read the patch</a></p>
